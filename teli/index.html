@@ -14,27 +14,68 @@
 </head>
 <body>
 	<div class="container">
- 	<h1>Tech Executive Leadership Institute (TELI) desk research tool</h1>
- 	<h2>What is this?</h2>
- 	<p>A tool to assist with desk research of policy initiatives.  Basically it's a version of Google focused on a subset of the web relevant to policy research (Federal websites, News, Non-profits and think tanks)</p>
- 	<h2>What can I search?</h2>
- 	<p>Currently there are several categories of sites:</p>
- 		<ul>
- 			<li>Press - cnbc.com, cnn.com, WaPo, NYTimes, Twitter, Politico, C-Span</li>
- 			<li>Non-profits - Non-profits and think tanks with quite a bit of pre-existing policy research</li>
- 			<li>Non-profits tech resources - Non-profits focused on technology</li>
- 			<li>Federal government - All encompassing</li>
- 			<li>Congress - senate.gov and house.gov</li>
- 			<li>Federal legislation - The federal register of all passed and proposed legislation</li>
- 			<li>Federal tech resources - USDS.gov and 18-F</li>
- 			<li>Executive branch - whitehouse.gov</li>
- 			<li>Federal agencies - DOL, CBO, FEMA, VA, and many others</li>
- 			<li>Judiciary - uscourts.gov and JDSupra.com</li>
- 		</ul>
-	See full list in Google Sheet <a href=""https://docs.google.com/spreadsheets/d/1EsMtPNvVlAPRmfV2yT0hXdSuN4WNDF1xgODWBjx-94A/edit#gid=2101287041">here</a> 		
- 	<h2>How does it work?</h2>
- 	<p>This tool uses a Google feature called a <a href="https://programmablesearchengine.google.com/about/">Programmable Search Engine</a> to allow customization of Google's search engine</p>
- 	<h2>Try it here:</h2>
+ 	<h1>Tech Executive Leadership Institute (TELI) desk research tool</h1>		
+	<div class="accordion" id="accordionExample">
+		  <div class="card">
+		    <div class="card-header" id="headingOne">
+		      <h2 class="mb-0">
+		        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          What is this?
+		        </button>
+		      </h2>
+		  	</div>
+		    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+		      <div class="card-body">
+			 	<p>A tool to assist with desk research of policy initiatives.  Basically it's a version of Google focused on a subset of the web relevant to policy research (Federal websites, News, Non-profits and think tanks)</p>
+		      </div>
+		    </div>
+  		</div>
+		  <div class="card">
+		    <div class="card-header" id="headingTwo">
+		      <h2 class="mb-0">
+		        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+		          What can I search?
+		        </button>
+		      </h2>
+		  	</div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+		      <div class="card-body">
+			 	<p>Currently there are several categories of sites:</p>
+			 		<ul>
+			 			<li>Press - cnbc.com, cnn.com, WaPo, NYTimes, Twitter, Politico, C-Span</li>
+			 			<li>Non-profits - Non-profits and think tanks with quite a bit of pre-existing policy research</li>
+			 			<li>Non-profits tech resources - Non-profits focused on technology</li>
+			 			<li>Federal government - All encompassing</li>
+			 			<li>Congress - senate.gov and house.gov</li>
+			 			<li>Federal legislation - The federal register of all passed and proposed legislation</li>
+			 			<li>Federal tech resources - USDS.gov and 18-F</li>
+			 			<li>Executive branch - whitehouse.gov</li>
+			 			<li>Federal agencies - DOL, CBO, FEMA, VA, and many others</li>
+			 			<li>Judiciary - uscourts.gov and JDSupra.com</li>
+			 		</ul>
+				<p>See the full list in Google Sheet <a href="https://docs.google.com/spreadsheets/d/1EsMtPNvVlAPRmfV2yT0hXdSuN4WNDF1xgODWBjx-94A/edit#gid=2101287041">here</a>
+					Note: Any edits to this list require a manual refresh.  Please email or contact me via Slack & I'll be happy to update
+				</p>
+
+		      </div>
+		    </div>
+  		</div>
+		  <div class="card">
+		    <div class="card-header" id="headingThree">
+		      <h2 class="mb-0">
+		        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+		          How does it work?
+		        </button>
+		      </h2>
+		  	</div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		      <div class="card-body"> 	
+		      	<p>This tool uses a Google feature called a <a href="https://programmablesearchengine.google.com/about/">Programmable Search Engine</a> to allow customization of Google's search engine</p>
+		      </div>
+		    </div>
+  		</div>  		
+	</div>
+ 	<h2>Search:</h2>
  	<div>
 		<div id="search">
 			<div class="gcse-searchbox"></div>
