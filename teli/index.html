@@ -14,8 +14,10 @@
 </head>
 <body>
 	<div class="container">
- 	<h1>Tech Executive Leadership Institute (TELI) desk research tool</h1>		
-	<div class="accordion" id="accordionExample">
+ 	<h1>Tech Executive Leadership Institute (TELI) desk research tool</h1>
+ 	<!-- Container -->
+ 	<div class="d-flex p-2">
+	<div class="p-2 accordion" id="accordionExample">
 		  <div class="card">
 		    <div class="card-header" id="headingOne">
 		      <h2 class="mb-0">
@@ -26,7 +28,7 @@
 		  	</div>
 		    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
 		      <div class="card-body">
-			 	<p>A tool to assist with desk research of policy initiatives.  Basically it's a version of Google focused on a subset of the web relevant to policy research (Federal websites, News, Non-profits and think tanks)</p>
+			 	<p>A tool to assist with desk research of policy initiatives.  Basically it's a version of Google focused on a subset of the web relevant to policy research (Federal websites, Major news sites, Non-profits and think tanks).  You'll see results only from the list below and have the ability to filter them based on category</p>
 		      </div>
 		    </div>
   		</div>
@@ -53,10 +55,8 @@
 			 			<li>Federal agencies - DOL, CBO, FEMA, VA, and many others</li>
 			 			<li>Judiciary - uscourts.gov and JDSupra.com</li>
 			 		</ul>
-				<p>See the full list in Google Sheet <a href="https://docs.google.com/spreadsheets/d/1EsMtPNvVlAPRmfV2yT0hXdSuN4WNDF1xgODWBjx-94A/edit#gid=2101287041">here</a>
-					Note: Any edits to this list require a manual refresh.  Please email or contact me via Slack & I'll be happy to update
-				</p>
-
+				<p>See the full list in a Google Sheet <a href="https://docs.google.com/spreadsheets/d/1EsMtPNvVlAPRmfV2yT0hXdSuN4WNDF1xgODWBjx-94A/edit#gid=2101287041">here</a></p>
+				<p>Note: Any edits to this list require a manual refresh.  Please email or contact me via Slack & I'll be happy to update</p>
 		      </div>
 		    </div>
   		</div>
@@ -74,16 +74,36 @@
 		      </div>
 		    </div>
   		</div>  		
+		  <div class="card">
+		    <div class="card-header" id="headingFour">
+		      <h2 class="mb-0">
+		        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+		          How can I add / edit sites?
+		        </button>
+		      </h2>
+		  	</div>
+		    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+		      <div class="card-body"> 	
+		      	<p>Email or Slack me (Tim Reilly) - input / suggestions are welcomed</p>
+		      </div>
+		    </div>
+  		</div>  		
 	</div>
- 	<h2>Search:</h2>
- 	<div>
-		<div id="search">
-			<div class="gcse-searchbox"></div>
-		</div>
-		<div id="results">
-			<div class="gcse-searchresults"></div>
+	<br/>
+	<div>
+	 	<h5>Search:
+	 	<small><i>Try 'unemployment insurance delays'</i></small>
+	 	</h5>
+	 	<div>
+			<div id="search">
+				<div class="gcse-searchbox"></div>
+			</div>
+			<div id="results">
+				<div class="gcse-searchresults"></div>
+			</div>
 		</div>
 	</div>
+	</div> <!-- End container -->
 	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->	
